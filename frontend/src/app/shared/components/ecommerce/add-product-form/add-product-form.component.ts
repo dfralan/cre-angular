@@ -36,8 +36,8 @@ export class AddProductFormComponent {
   ];
 
   availability = [
-    { value: '1', label: 'In Stock' },
-    { value: '2', label: 'Out of Stock' }
+    { value: '1', label: 'Available' },
+    { value: '2', label: 'Sold' }
   ];
 
   colors = [
