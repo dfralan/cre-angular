@@ -3,6 +3,7 @@ import { RouterModule } from '@angular/router';
 import { TestApiComponent } from './shared/components/test-api/test-api.component';
 import { ApiService } from './shared/services/api.service';
 import { CommonModule } from '@angular/common';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
