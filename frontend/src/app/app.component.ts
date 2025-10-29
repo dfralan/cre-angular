@@ -22,6 +22,10 @@ export class AppComponent implements OnInit {
   constructor(private apiService: ApiService) {}
 
   ngOnInit() {
+    console.log('Environment:', {
+      production: environment.production,
+      apiUrl: environment.apiUrl
+    });
     this.testApiConnection();
   }
 
