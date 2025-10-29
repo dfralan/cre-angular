@@ -1,4 +1,4 @@
-@CRE.API_HostAddress = http://localhost:5246
+@CRE.API_HostAddress = http://localhost:5152
 
 GET {{CRE.API_HostAddress}}/weatherforecast/
 Accept: application/json
