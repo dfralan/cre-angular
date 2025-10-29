@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "W8nmVW4GywM=",
+  "success": true,
+  "projectFilePath": "/Users/a/dev/cre-angular/backend/CRE.API/CRE.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/a/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/Users/a/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

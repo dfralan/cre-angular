@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ROwKgAuA+T6fEIjkyxdtIMgU6W6hZb5ynYG/5DQk5OA=",
+  "Source": "CRE.API",
+  "BasePath": "_content/CRE.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
