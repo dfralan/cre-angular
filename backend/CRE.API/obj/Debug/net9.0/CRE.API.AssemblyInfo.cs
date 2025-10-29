@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRE.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54135f5d6c172c4055caeb717b5360d30177e950")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14ef3f184c5bb8d6907ab978a0458fa0a63741be")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRE.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRE.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

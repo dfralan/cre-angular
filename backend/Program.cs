@@ -1,6 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add CORS policy
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll", 
@@ -13,18 +12,8 @@ builder.Services.AddCors(options =>
         });
 });
 
-// Add services to the container.
-builder.Services.AddOpenApi();
-
 var app = builder.Build();
 
-// Use CORS
+// Important: Add UseCors before UseHttpsRedirection
 app.UseCors("AllowAll");
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-}
-
 app.UseHttpsRedirection();

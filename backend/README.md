@@ -43,8 +43,7 @@ This project is an ASP.NET Core application that serves as a mock API and hosts 
    dotnet run
    ```
 
-4. Access the API at `https://localhost:7234` (port may vary)
-   - Swagger UI available at `https://localhost:7234/swagger`
+4. Access the API at `https://localhost:5152` (port may vary)
 
 ## Overview
 
