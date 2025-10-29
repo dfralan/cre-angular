@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, Input, Output, EventEmitter, ElementRef, ViewChild } from '@angular/core';
 import flatpickr from 'flatpickr';
+import 'flatpickr/dist/flatpickr.css';
 
 @Component({
   selector: 'app-time-picker',
