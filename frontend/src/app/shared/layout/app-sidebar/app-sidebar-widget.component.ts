@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
     Monitor your projects in real-time, track performance metrics, and optimize your workflow effortlessly.
   </p>
   <a
-    href="https://yourproduct.com/get-started"
+    href="https://www.linkedin.com/in/dfralan/"
     target="_blank"
     rel="nofollow"
     class="flex items-center justify-center p-3 font-medium text-white rounded-lg bg-brand-500 text-theme-sm hover:bg-brand-600"
