@@ -7,12 +7,12 @@ import { ApiService } from '../../services/api.service';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <div class="p-4">
-      <h3 class="text-lg font-bold">API Test</h3>
+  <div class="rounded-2xl border border-gray-200 bg-white p-5 dark:border-gray-800 dark:bg-white/[0.03] p-6">
+      <h3 class="text-lg font-bold dark:text-white">API Test</h3>
       <button (click)="callApi()" class="mt-2 px-3 py-1 bg-blue-600 text-white rounded">Call API</button>
       <pre class="mt-3 bg-gray-100 p-2 rounded" *ngIf="result">{{ result | json }}</pre>
       <div *ngIf="error" class="mt-2 text-red-600">Error: {{ error }}</div>
-    </div>
+  </div>
   `
 })
 export class TestApiComponent implements OnInit {

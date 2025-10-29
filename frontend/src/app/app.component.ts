@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { TestApiComponent } from './shared/components/test-api/test-api.component';
 import { ApiService } from './shared/services/api.service';
 import { CommonModule } from '@angular/common';
 import { environment } from '../environments/environment';
@@ -10,7 +9,6 @@ import { environment } from '../environments/environment';
   standalone: true,
   imports: [
     RouterModule,
-    TestApiComponent,
     CommonModule
   ],
   templateUrl: './app.component.html',
@@ -26,20 +24,6 @@ export class AppComponent implements OnInit {
     console.log('Environment:', {
       production: environment.production,
       apiUrl: environment.apiUrl
-    });
-    this.testApiConnection();
-  }
-
-  testApiConnection() {
-    this.apiService.getDashboardData().subscribe({
-      next: (response) => {
-        this.apiStatus = 'API Connection Successful! ' + JSON.stringify(response);
-        console.log('API Response:', response);
-      },
-      error: (error) => {
-        this.apiStatus = 'API Error: ' + error.message;
-        console.error('API Error:', error);
-      }
     });
   }
 }

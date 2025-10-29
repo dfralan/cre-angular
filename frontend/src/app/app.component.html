@@ -1,14 +1,1 @@
 <router-outlet></router-outlet>
-
-<!-- API Status Display -->
-<div class="m-4 p-4 bg-gray-100 rounded-lg">
-    <h3 class="text-lg font-semibold mb-2">API Connection Status:</h3>
-    <p [class]="apiStatus.includes('Error') ? 'text-red-500' : 'text-green-500'">
-        {{ apiStatus }}
-    </p>
-</div>
-
-<!-- Quick API test component (click "Call API" to fetch /api/dashboard) -->
-<section class="m-4">
-    <app-test-api></app-test-api>
-</section>
